@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 })
 
 
-cron.schedule('1 32 3 * * *', () => {
+cron.schedule('1 * * * * *', () => {
 
 
 	const apiPath = `http://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=Poznan&days=2&aqi=no&alerts=no`
