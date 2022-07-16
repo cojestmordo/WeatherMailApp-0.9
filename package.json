@@ -4,7 +4,7 @@
   "description": "a simple app that sends you email with weather info",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start":"node index.js"
   },
   "keywords": [
     "weather",
