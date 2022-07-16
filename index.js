@@ -9,8 +9,7 @@ env.config();
 
 const app = express();
 
-const port = 3000
-
+const port = process.env.PORT 
 const api_key = process.env.API_KEY
 const mail_user = process.env.MAIL_USER
 const mail_key = process.env.MAIL_KEY
